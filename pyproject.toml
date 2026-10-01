@@ -1,0 +1,9 @@
+[project]
+name = "bakery-demand-forecast"
+version = "0.1.0"
+description = "Absatzprognose und Produktionsplanung für Bäckereien auf Basis von bakery-sales-db"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
